@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeResource {
     @GetMapping("/")
     public String index() {
-        return "\"Welcome Smart Task Manager API. Access API Docs to Continue!\"";
+        return "\"Welcome Smart Task Manager API. Please access API Docs to continue!\"";
     }
 
 }
